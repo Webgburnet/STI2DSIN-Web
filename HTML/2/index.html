@@ -1,0 +1,40 @@
+<HTML LANG="fr">
+
+	<HEAD>
+		<META CHARSET="utf-8">
+		<TITLE>formulaire_get</TITLE>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	</HEAD>
+	<BODY> 
+		<FORM method=get action="enregistrement0.php">
+			Enregistrement d'un utilisateur<br>
+			Nom<INPUT type=text name="nom"><br>
+			Prénom<INPUT type=text name="pre"><br>
+			Sexe<br>
+			Masculin : <INPUT type=radio name="sex" value="M"><br>
+			Feminin : <INPUT type=radio name="sex" value="F"><br>
+			Année de naissance de la forme jj/mm/aa <br>
+			Année :<INPUT type=text name="annee">
+			Mois : <INPUT type=text name="mois">
+			<!--Mois : <select name="mois">
+				<option value="01">Janvier</option>
+				<option value="02">Fevrier</option>
+				<option value="03">Mars</option>
+				<option value="04">Avril</option>
+				<option value="05">Mai</option>
+				<option value="06">Juin</option>
+				<option value="07">Juillet</option>
+				<option value="08">Aout</option>
+				<option value="09">Septembre</option>
+				<option value="10">Octobre</option>
+				<option value="11">Novembre</option>
+				<option value="12">Decembre</option>
+			</select>-->
+			Jour : <INPUT type=text name="jour">
+			<br>
+			Commentaires<br>
+			<TEXTAREA rows="2" name="com">...</TEXTAREA><br>					
+			<INPUT type="submit" value="Envoyer"><br>
+			<a href= "lecture.php">Lecture de la base de donnee MySQL</a><br> <!--lien pour retourner à la page formulaire-->
+	</BODY>
+</HTML>

@@ -1,0 +1,22 @@
+﻿/* fichier CSS - exercice N°2 - TP CSS */
+
+h1
+{
+	color:red;
+
+}
+
+h2
+{
+	color:green;
+}
+
+p:nth-child(odd)
+{
+	color:blue;
+}
+
+p:nth-child(even) 
+{ 
+	color: orange; 
+	}
